@@ -39,5 +39,5 @@ def retrieval
   shipping_manifest[:"gun powder"] = 4
 
   # return the shipping_manifest hash below
-  shipping_manifest
+  shipping_manifest[2]
 end
