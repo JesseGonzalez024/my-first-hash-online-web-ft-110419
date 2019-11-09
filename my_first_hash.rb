@@ -13,7 +13,7 @@ def shipping_manifest
 
 end
 
-def shipping_manifest
+def retrieval
   the_manifest = {
                   "whale bone corsets" => 5, 
                   "porcelain vases" => 2, 
@@ -31,7 +31,8 @@ def retrieval
                   "oil paintings" => 3
                  }
                  
-                
+  shipping_manifest[:"Oil paintings"]         
+  
   # add 2 muskets to the shipping_manifest hash below
 
   shipping_manifest[:"muskets"] = 2
